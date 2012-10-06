@@ -64,6 +64,7 @@ SPROMPT="%{[36m%}%r is correct? [n,y,a,e]:%{[m%} "
 [ -n "${REMOTEHOST}${SSH_CONNECTION}" ] && PROMPT="%{[37m%}${HOST%%.*} ${PROMPT}"
 
 export PATH=/usr/sbin/:$PATH
+export PATH=/sbin/:$PATH
 if [[ -d ~/nas ]]; then
 	export PATH=/home/user01/nas/tools/:$PATH
 fi
