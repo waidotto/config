@@ -69,7 +69,7 @@ if [[ -d ~/nas ]]; then
 	export PATH=/home/user01/nas/tools/:$PATH
 fi
 
-if [[ -e /usr/local/shell/platex.sh ]]; then
-	alias platex='source /usr/local/shell/platex.sh'
+if [[ -e ~/.platex.sh ]]; then
+	alias platex='source ~/.platex.sh'
 fi
 
