@@ -73,3 +73,6 @@ if [[ -e ~/.platex.sh ]]; then
 	alias platex='source ~/.platex.sh'
 fi
 
+##大文字小文字を区別せずに補完する
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+
