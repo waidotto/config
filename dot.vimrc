@@ -8,4 +8,5 @@ if exists('&ambiwidth')
   set ambiwidth=double
 endif
 set fileencodings=ucs-bom,utf-8,euc-jp,sjis,iso-2022-jp,cp932,latin1
+set foldmethod=indent
 
