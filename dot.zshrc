@@ -76,3 +76,6 @@ fi
 ##大文字小文字を区別せずに補完する
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
+##タブ幅を4にする
+tabs -4
+
