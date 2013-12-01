@@ -9,4 +9,5 @@ if exists('&ambiwidth')
 endif
 set fileencodings=ucs-bom,utf-8,euc-jp,sjis,iso-2022-jp,cp932,latin1
 "set foldmethod=indent
-let g:neocomplcache_enable_at_startup = 1
+set clipboard=unnamed,autoselect
+
