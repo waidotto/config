@@ -88,3 +88,5 @@ bindkey "^N" history-beginning-search-forward-end
 ##コマンド訂正
 setopt correct
 
+alias cp='cp -p'
+
