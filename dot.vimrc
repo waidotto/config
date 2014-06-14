@@ -11,3 +11,4 @@ set fileencodings=ucs-bom,utf-8,euc-jp,sjis,iso-2022-jp,cp932,latin1
 "set foldmethod=indent
 set clipboard=unnamed,autoselect
 set textwidth=0
+syntax on
