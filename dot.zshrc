@@ -90,3 +90,5 @@ setopt correct
 
 alias cp='cp -p'
 
+export EDITOR=`which vim`
+
