@@ -59,6 +59,9 @@ function chpwd() {
 RPROMPT="%{[36m%}[%~] %*%{[m%}"
 ##他のプロンプトの設定
 PROMPT="%{[36m%}%n@%M%(1j,[%j],)%%%{[m%} "
+##vimで:shしたときに表示する
+[[ -n "$VIMRUNTIME" ]] && \
+    PROMPT="%{[1;33m%}(vim)%{[m%} $PROMPT"
 PROMPT2="%{[36m%}%_%%%{[m%} "
 SPROMPT="%{[36m%}%r is correct? [n,y,a,e]:%{[m%} "
 [ -n "${REMOTEHOST}${SSH_CONNECTION}" ] && PROMPT="%{[37m%}${HOST%%.*} ${PROMPT}"
