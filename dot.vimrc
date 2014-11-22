@@ -12,3 +12,8 @@ set fileencodings=ucs-bom,utf-8,euc-jp,sjis,iso-2022-jp,cp932,latin1
 set clipboard=unnamed,autoselect
 set textwidth=0
 syntax on
+
+if filereadable(expand('~/.vimrc.plugin'))
+    source ~/.vimrc.plugin
+endif
+
