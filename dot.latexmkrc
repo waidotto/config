@@ -5,7 +5,7 @@
 $latex            = 'platex -synctex=1';
 $latex_silent     = 'platex -synctex=1 -interaction=batchmode';
 $bibtex           = 'pbibtex';
-$dvipdf           = 'dvipdfmx -f ~/.ipaex.map %O -o %D %S';
+$dvipdf           = 'dvipdfmx -f ~/.ipaex.map -g 1pt %O -o %D %S';
 $makeindex        = 'mendex %O -o %D %S';
 $max_repeat       = 5;
 $pdf_mode	  = 3; # generates pdf via dvipdfmx
